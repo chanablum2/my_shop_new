@@ -62,6 +62,14 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 CSRF_COOKIE_SECURE = True
 
+
+ALLOWED_HOSTS = ['my-shop-new.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://my-shop-new.onrender.com/']
+CORS_ALLOWED_ORIGINS = [
+    'https://my-shop-new.onrender.com/',
+]
+
+
 ROOT_URLCONF = 'my_shop.urls'
 
 TEMPLATES = [
