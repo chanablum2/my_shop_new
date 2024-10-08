@@ -60,6 +60,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_COOKIE_SECURE = True
 
 ROOT_URLCONF = 'my_shop.urls'
 
